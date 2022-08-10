@@ -1,0 +1,14 @@
+.one h1{
+    border-style:dashed;
+    border-width: 5px;
+    border-color:black;
+    text-align: center;
+    
+}
+
+.two p{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    text-align: left;
+}

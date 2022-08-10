@@ -1,0 +1,7 @@
+#myDIV div.ex1{
+    border: 2px solid black ;
+   padding: 1px;
+   height: 500px;
+   width: 400px;
+   overflow: scroll;
+}

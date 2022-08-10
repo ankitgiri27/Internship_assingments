@@ -1,0 +1,21 @@
+
+.one h2{
+    color:rgb(223, 243, 43);
+    text-align: center;
+}
+p{
+    color: blueviolet;
+}
+p.two{
+text-align: center;
+color: aquamarine;
+}
+
+body{
+    background-image: url(IMG_20220320_085142_413.jpg) ;
+   background-size: 99.99%;
+    background-attachment: fixed;
+    
+    background-color: black;
+}
+
