@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2><b>Using input attributes like text, password, submit, reset, radio,
+            checkbox, button</b></h2>
+    </header>
+    <main>
+<form action="/actionpage.php">
+    <span>
+        <input type="text" placeholder="Enter Name">
+        <br>
+        <input type="password" placeholder="Password">
+    </span>
+    <br><br><br>
+    <div>
+        <h3><i>Select your class</i></h3>
+            <label for="101">
+                <input type="radio" value="class xi" name="class" id="101">Class XI
+            </label>
+            <br>
+            <label id="102">
+                <input type="radio" value="class xii" name="class" id="102">Class XII
+            </label>
+    </div>
+    <br><br><br>
+    <span>
+        <h3><i>Select your fav subjects</i></h3>
+       
+        <label for="maths">
+            <input type="checkbox" value="maths" name="subject" id="101">Maths
+        </label>
+        <br>
+        <label for="physics">
+             <input type="checkbox" value="physics" name="subject" id="102">Physics
+        </label>
+        <br>
+        <label for="chemistry">
+            <input type="checkbox" value="chemistry" name="subject" id="101">Chemistry
+        </label>
+        <br>
+        <label for="computer science">
+            <input type="checkbox" value="computer science" name="subject" id="101">Computer Science
+        </label>
+    </span>
+    <br><br>
+    <button type="reset"  value="Reset">Reset</button>
+    <button type="submit"  value="Submit">Submit</button>
+</form>
+
+       
+</main>
+
+</body>
+</html>

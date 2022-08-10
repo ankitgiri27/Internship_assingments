@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3>Using input restrictions like disabled, max, maxlength, min, readonly,
+            required, size, value</h3>
+    </header>
+    <main>
+        <form>
+            <label for="fname">First name:</label><br />
+            <input type="text" id="fname" name="fname" value="Ankit" disabled /><br />
+            <label for="lname">Last name:</label><br />
+            <input type="text" id="lname" name="lname" value="Doe" />
+          </form>
+          <br><br><br>
+          <form>
+            <div>
+                <b>Enter number between 1 to 10:</b> <input type="number" name="my num" min="1" max="10" >
+            </div>
+            <br>
+            <div>
+                <b>Enter range : </b><input type="range" name="myrange" min="1" max="100" >
+            </div>
+          </form>
+          <br><br><br>
+          <form>
+            <div>
+                Enter Username : <input type="text" placeholder="Username" maxlength="10">
+            </div>
+            <div>
+                Enter Password : <input type="password" placeholder="Password" maxlength="10">
+            </div>
+          </form>
+          <br><br>
+          <form>
+            <label for="fname">First name:</label><br />
+            <input type="text" id="fname" name="fname" value="John" readonly /><br />
+            <label for="lname">Last name:</label><br />
+            <input type="text" id="lname" name="lname" value="Doe" />
+          </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
